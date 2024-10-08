@@ -1,6 +1,10 @@
 const linkYes = `https://amazon.pl/?vote=yes`; //здесь нужно водить линки
 const linkNo = `https://amazon.pl/?vote=no`; //здесь нужно водить линки
 
+//текст 18лет
+document.documentElement.style.setProperty('--text-position', '30px');
+// кнопки
+document.documentElement.style.setProperty('--btn-position', '50px');
 
 // modal
 
@@ -42,8 +46,6 @@ open_btns.forEach((btn) => {
 close_btn.addEventListener('click', () => {
   mobile_links.style.right = '-100%';
 });
-
-
 
 // coockie
 document.addEventListener('DOMContentLoaded', function () {
