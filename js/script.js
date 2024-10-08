@@ -1,10 +1,16 @@
 const linkYes = `https://amazon.pl/?vote=yes`; //здесь нужно водить линки
 const linkNo = `https://amazon.pl/?vote=no`; //здесь нужно водить линки
 
-//текст 18лет
+// текст размер
+document.documentElement.style.setProperty('--text-size', '25px');
+//текст 18лет верх вниз
 document.documentElement.style.setProperty('--text-position', '30px');
-// кнопки
+// кнопки верх вних
 document.documentElement.style.setProperty('--btn-position', '50px');
+// кнопка ширина
+document.documentElement.style.setProperty('--btn-width', '150px');
+// кнопка высота
+document.documentElement.style.setProperty('--btn-height', '50px');
 
 // modal
 

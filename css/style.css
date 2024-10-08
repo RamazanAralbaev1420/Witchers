@@ -1,6 +1,9 @@
 :root {
   --text-position: 0px;
   --btn-position: 0px;
+  --text-size: 0px;
+  --btn-width: 0px;
+  --btn-height: 0px;
 }
 
 * {
@@ -840,8 +843,8 @@ header {
 
 .mobile_content_btn {
   color: #fff;
-  width: 150px;
-  height: 40px;
+  width: var(--btn-width);
+  height: var(--btn-height);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -852,6 +855,7 @@ header {
 }
 
 .accept_title {
+  font-size: var(--text-size);
   text-align: center;
   margin-top: 300px;
   transform: translateY(var(--text-position));
